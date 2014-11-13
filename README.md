@@ -1,6 +1,7 @@
 ArchivesSpace Assets Reroute Plugin 
 ======================================
 
+**Special thanks to Mark Triggs from Hudson Molongo for putting this together**
 
 This is a plugin to reroute the Rails asset pipeline in the ASpace frontend and
 public UI to use plugin assets. It's specificly designed to allow plugin assets
