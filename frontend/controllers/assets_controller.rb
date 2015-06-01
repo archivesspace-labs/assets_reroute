@@ -3,7 +3,7 @@ require 'pathname'
 # Serve out assets for Servlet containers that can't easily be configured to do
 # it for us (like Tomcat 7)
 class AssetsController < ApplicationController
-  set_access_control  :public => [:show]
+  # set_access_control  :public => [:show]
 
   def show
     requested_path = "#{params[:path]}.#{params[:format]}"
